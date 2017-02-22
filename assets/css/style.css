@@ -1,0 +1,10 @@
+body{
+	background: url("../images/background2.jpg") no-repeat;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+.gamespace{
+	background-color: rgba(0, 0, 0, .2);
+	color: white;
+}
