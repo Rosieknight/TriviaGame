@@ -1,3 +1,6 @@
+//I am aware how wet this code is. I was trying a different method to
+//dynamically generate buttons, and it didn't work out the way I hoped.
+
 var pickedButton; //Used below
 
 //Start of the question bank. Playing with different ways of orgainizing things.
