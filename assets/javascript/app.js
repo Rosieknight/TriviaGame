@@ -358,6 +358,7 @@ function stop(){
 function reset(){
 	questions = [];
 	$("#gameplay").html("<h3>Click the button to begin.</h3><button type='start' class='btn btn-success h4' id='start'>Start</button>");
+	$("#theme").attr("src","assets/sounds/MainTitle.mp3");
 	picked();
 	stop();
 	number = 30;
@@ -418,6 +419,7 @@ function playGame(){
 function changeQuestion(){
 	console.log(count);
 	if (count===questions.length){
+		$("#theme").attr("src","assets/sounds/MedalScene.mp3");
 		$("#gameplay").html("<h3>Thanks for playing! Click the button to play again!</h3><button type='replay' class='btn btn-success h4' id= 'replay'>Play Again</button>");
 		clearInterval(nextUp);
 	}
@@ -434,6 +436,7 @@ function newQuestion(){
 $(document).ready(function(){
 	count=0;
 	picked();
+	$("#theme").attr("src","assets/sounds/MainTitle.mp3");
 	$("#gameplay").html("<h3>Click the button to begin.</h3><button type='start' class='btn btn-success h4' id= 'start'>Start</button>");
 	$(document).on("click", "#start", setUp);
 	$(document).on("click", ".answers", function(){
