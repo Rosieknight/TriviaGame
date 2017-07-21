@@ -54,7 +54,7 @@ var ssd = {
 
 var sith = {
 	question: "Who is NOT a Sith Lord?",
-	a: "Darh Maul",
+	a: "Darth Maul",
 	b: "Yoko Ono",
 	c: "Emperor Palpatine",
 	d: "Darth Vader",
